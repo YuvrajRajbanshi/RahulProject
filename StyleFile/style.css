@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* here is your navigartion bar  */
+
+img.logo {
+  width: 39px;
+  height: 39px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 60px;
+  gap: 40px;
+}
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+/* here is your headlings of the company */
+
+.headings {
+  margin-left: 15vw;
+}
+.headings-text {
+  font-size: 46px;
+  color: black;
+}
+.blueColor {
+  color: #573ff2;
+}
+.getInTouch {
+  margin-top: 20px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background: #573ff2;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.5s;
+}
+.getInTouch:hover {
+  color: black;
+  background: transparent;
+  scale: 1.1;
+}
+
+/* Fron here about us section  */
+
+.aboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: s;
+  width: 1096px;
+  height: 481px;
+  margin: auto;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.leftContainer {
+  width: 637px;
+  background: #f0f0f0;
+  padding: 30px;
+}
+.leftContainer ul li {
+  text-align: justify;
+  margin-top: 5px;
+}
+.leftContainer h1 {
+  font-weight: bold;
+}
+
+img.aboutPhoto {
+  height: 459px;
+  width: 481px;
+}
+
+/* From here projects css */
+
+.projects h1 {
+  /* margin-left: 150px; */
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.photos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.photoContainer {
+  background: #f0f0f0;
+  width: 197px;
+  height: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.imgProjects {
+  width: 77px;
+  height: 77px;
+}
+.desCription {
+  width: 197px;
+}
+
+.text-container h3 {
+  text-align: center;
+}
+
+section {
+  position: relative;
+}
+
+/* from here testimonials  */
+
+.box-container {
+  height: 200px;
+  max-width: 300px;
+
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.forFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50vh; */
+
+  flex-direction: column;
+}
+.testimonials {
+  margin-top: 60px;
+  height: 50vh;
+}
+.testimonials h1 {
+  font-size: 35px;
+  font-weight: bolds;
+  margin-left: 150px;
+}
+img.ceo {
+  width: 52px;
+  height: 52px;
+}
